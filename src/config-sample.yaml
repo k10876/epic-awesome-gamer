@@ -5,8 +5,8 @@
 # ---------------------------------------------------
 # Tips：不建议在公有库上创建工作流运行项目，有仓库禁用风险
 # ===================================================
-EPΙC_EMAΙL: ""
-EPΙC_PASSWΟRD: ""
+EPΙC_EMAΙL: ${EPIC_EMAIL}
+EPΙC_PASSWΟRD: ${EPIC_PASSWORD}
 
 # ===================================================
 # [※] 通信鸽
@@ -20,6 +20,6 @@ message_pusher_settings:
   pusher:
     PUSHER_EMAIL: ""
     PUSHER_DINGTALK: ""
-    PUSHER_TELEGRAM: ""
+    PUSHER_TELEGRAM: ${PUSHER_TGRAM}
     PUSHER_SERVERCHAN: ""
     PUSHER_DISCORD: ""
